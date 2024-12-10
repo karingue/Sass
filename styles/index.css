@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: blue;
+  color: white;
+}
+header button {
+  background: red;
+}
+header button:hover {
+  background: yellow;
+}
+header p {
+  color: black;
+}
+header h1 {
+  color: purple;
+}
+
+.contato {
+  background: blue;
+}/*# sourceMappingURL=index.css.map */
