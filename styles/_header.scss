@@ -1,14 +1,15 @@
-@mixin flexcenter(){ //Basicamente ele age como uma função, e suporta adição de parametros
+@mixin flexcenter($direction,$bg){ //Basicamente ele age como uma função, e suporta adição de parametros
     display:flex;
     justify-content: center;
     align-items: center;  
-    height: 100vh;
+    height: 100vh;  
+    flex-direction:$direction; 
+    background: $bg;
 }
 
 
 header{
-    @include flexcenter();  
-    background: $primary;
+    @include flexcenter(row,green);  
     color:white;
     button{
         background: $secondary;

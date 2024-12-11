@@ -1,2 +1,7 @@
 @import './variaveis'; 
 @import './header'; // Faz a importação do elemtno de outro arquivo, transformando ele em um template 
+
+.contato{
+    @include flexcenter(column, yellow);
+    @extend header;
+}
